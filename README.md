@@ -18,19 +18,40 @@ Full task checklists, remote execution timeline, and marking rubric checklist ar
 
 ---
 
+## Allowed Libraries (Group 17 Standard)
+All analysis, cleaning, and visualisations strictly use **only**:
+- `numpy`
+- `pandas`
+- `matplotlib`
+- `seaborn`
+- `geopandas`
+
+## Collaborative Data Cleaning Workflow
+1. **Individual Analysis & Cleaning:** Each member works independently in their own notebook:
+   - `notebooks/cleaning_and_analysis_thisara.ipynb`
+   - `notebooks/cleaning_and_analysis_sachithra.ipynb`
+   - `notebooks/cleaning_and_analysis_kavindu.ipynb`
+2. **Team Review & Merge:** All 3 members review each other's cleaning methods and results together, then merge the best decisions into one unified final cleaning pipeline and frozen dataset (`data/processed/cleaned_crime_data.csv.gz`).
+3. **Reference Files (Keep Untouched):** `notebooks/00_data_cleaning_thisara.ipynb` and all guides in `docs/` remain untouched as shared reference material.
+
+---
+
 ## Project Structure
 ```text
 ADP-CW01-Group-17/
 ├── data/
 │   ├── raw/
-│   │   └── dataset_coursework1.csv          # NOT in Git (download from shared Drive)
+│   │   └── dataset_coursework1.csv.gz       # Included in Git (31 MB compressed)
 │   └── processed/
-│       └── cleaned_crime_data.parquet       # NOT in Git (frozen by Thisara, shared via Drive)
+│       └── cleaned_crime_data.csv.gz        # Final merged & frozen dataset (after 3-way review)
 ├── notebooks/
-│   ├── 00_data_cleaning_thisara.ipynb       # Master data quality audit & cleaning pipeline
-│   ├── 01_rq1_to_rq3_sachithra.ipynb        # RQs 1–3 (6 visualisations)
-│   ├── 02_stats_rq4_to_rq6_thisara.ipynb    # Descriptive stats + RQs 4–6 (6 visualisations)
-│   └── 03_eda_rq7_to_rq10_kavindu.ipynb     # EDA checks + RQs 7–10 (8 visualisations)
+│   ├── cleaning_and_analysis_thisara.ipynb      # Thisara's individual analysis & cleaning
+│   ├── cleaning_and_analysis_sachithra.ipynb    # Sachithra's individual analysis & cleaning
+│   ├── cleaning_and_analysis_kavindu.ipynb      # Kavindu's individual analysis & cleaning
+│   ├── 00_data_cleaning_thisara.ipynb           # Reference template (unchanged)
+│   ├── 01_rq1_to_rq3_sachithra.ipynb            # RQs 1–3 (6 visualisations)
+│   ├── 02_stats_rq4_to_rq6_thisara.ipynb        # Descriptive stats + RQs 4–6 (6 visualisations)
+│   └── 03_eda_rq7_to_rq10_kavindu.ipynb         # EDA checks + RQs 7–10 (8 visualisations)
 ├── utils/
 │   └── viz_style.py                         # Shared palette, fonts, paths & 300 DPI save_fig()
 ├── figures/                                 # All 20 final PNGs (fig01_rq1_a.png .. fig20_rq10_b.png)
