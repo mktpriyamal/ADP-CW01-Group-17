@@ -12,7 +12,9 @@
 | **Kavindu** | EDA Strategy Lead & Visual QA Lead | Introduction to EDA (15), RQs 7–10 (16), Conclusion & IEEE Refs (5) | RQs 7–10 (8 charts — Spatial, Location & Operational) | 36 |
 
 Full task checklists, remote execution timeline, and marking rubric checklist are in [docs/Group_Work_Plan.md](docs/Group_Work_Plan.md).  
-**Start Here (Domain Onboarding):** Read [docs/Dataset_Domain_Brief.md](docs/Dataset_Domain_Brief.md) first for full Montgomery County policing context, FBI NIBRS rules, 30-column data dictionary, and real data-quality traps.
+**Start Here (Domain Onboarding):**
+- **English Domain Brief (Visual Guide):** [docs/Dataset_Domain_Brief.md](docs/Dataset_Domain_Brief.md)
+- **Sinhala Guides (සිංහලෙන්):** [Dataset Domain Knowledge](docs/Dataset_Domain_Knowledge_Sinhala.md) | [Dataset Profile](docs/Dataset_Profile_Sinhala.md) | [Assignment Explanation](docs/Assignment_Explanation_Sinhala.md)
 
 ---
 
