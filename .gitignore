@@ -11,13 +11,12 @@ env/
 .ipynb_checkpoints/
 */.ipynb_checkpoints/
 
-# Large Datasets (share via Google Drive / OneDrive, NOT Git)
+# Large Uncompressed Datasets (compressed .csv.gz is tracked in data/raw/)
 data/raw/*.csv
 data/raw/*.xlsx
 data/processed/*.csv
-data/processed/*.parquet
 *.csv
-*.parquet
+!data/raw/dataset_coursework1.csv.gz
 
 # OS & Editor
 .DS_Store

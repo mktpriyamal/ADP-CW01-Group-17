@@ -58,9 +58,10 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 2. Place the Dataset (Do NOT Commit Data to Git)
-- Download `dataset_coursework1.csv` from our shared Drive and place it in `data/raw/dataset_coursework1.csv`.
-- Once **Thisara** freezes the cleaned dataset in Phase 2, download `cleaned_crime_data.parquet` from our shared Drive and place it in `data/processed/cleaned_crime_data.parquet`.
+### 2. Dataset Included Ready-to-Use
+- The raw dataset is already included in the repo as **`data/raw/dataset_coursework1.csv.gz`** (31 MB compressed, since GitHub blocks uncompressed files >100 MB).
+- `pandas.read_csv(RAW_DATA_PATH)` reads `.csv.gz` natively without unzipping!
+- Once **Thisara** freezes the cleaned dataset in Phase 2, pull the latest `main` (or download from Drive) for `data/processed/cleaned_crime_data.parquet`.
 
 ### 3. Use Shared Chart Styling in Every Notebook
 Every notebook already imports `utils/viz_style.py`:

@@ -10,7 +10,9 @@ import seaborn as sns
 
 # Project paths (resolved relative to repo root)
 REPO_ROOT = Path(__file__).resolve().parent.parent
-RAW_DATA_PATH = REPO_ROOT / "data" / "raw" / "dataset_coursework1.csv"
+_RAW_CSV = REPO_ROOT / "data" / "raw" / "dataset_coursework1.csv"
+_RAW_GZ = REPO_ROOT / "data" / "raw" / "dataset_coursework1.csv.gz"
+RAW_DATA_PATH = _RAW_CSV if _RAW_CSV.exists() else _RAW_GZ
 CLEAN_DATA_PATH = REPO_ROOT / "data" / "processed" / "cleaned_crime_data.parquet"
 FIGURES_DIR = REPO_ROOT / "figures"
 
