@@ -29,14 +29,15 @@
 
 ---
 
-## 2. All 18 Project Issues (Mapped to Rubric & Members)
+## 2. All 19 Project Issues (Mapped to Rubric, Priority, Size & Live Status)
 
 ### Phase 1: Kickoff & Alignment (Day 1)
-| # | Issue Title | Member | Marks | Key Acceptance Criteria |
-| :-: | :--- | :--- | :-: | :--- |
-| 1 | `[Admin] Obtain group approval from Dr. Farzana Rahman` | Sachithra | — | Email sent with all 3 names & KU IDs; approval confirmed |
-| 2 | `[Kickoff] Finalise Problem Statement, Scope & 10 Research Questions` | All | — | All 3 agree on Problem Statement, Scope & 10 RQs (1–3 Sachithra, 4–6 Thisara, 7–10 Kavindu) |
-| 3 | `[Setup] Upload raw CSV to shared Drive & verify local environments` | Thisara | — | Raw CSV shared via Drive; all 3 clone repo & run `pip install -r requirements.txt` |
+| # | Issue Title | Member | Marks | Priority / Size | Current Status | Key Acceptance Criteria |
+| :-: | :--- | :--- | :-: | :-: | :-: | :--- |
+| 19 | `[Domain] Dataset Domain Knowledge Brief & Visual Guide (5,000+ words)` | Thisara | — | `P0` / `L` | **Done** | `docs/Dataset_Domain_Brief.md` (7,169 words) + 6 custom infographics/charts + 4 Mermaid diagrams pushed to `main` |
+| 1 | `[Admin] Obtain group approval from Dr. Farzana Rahman` | Sachithra | — | `P0` / `XS` | **Ready** | Email sent with all 3 names & KU IDs; approval confirmed |
+| 2 | `[Kickoff] Finalise Problem Statement, Scope & 10 Research Questions` | All | — | `P0` / `M` | **Ready** | All 3 agree on Problem Statement, Scope & 10 RQs (1–3 Sachithra, 4–6 Thisara, 7–10 Kavindu) |
+| 3 | `[Setup] Upload raw CSV to shared Drive & verify local environments` | Thisara | — | `P0` / `S` | **In progress** | Raw CSV shared via Drive; all 3 clone repo & run `pip install -r requirements.txt` |
 
 ### Phase 2: Data Freeze & Early Drafting (Days 2–3)
 | # | Issue Title | Member | Marks | Key Acceptance Criteria |
