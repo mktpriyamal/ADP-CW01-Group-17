@@ -11,7 +11,8 @@
 | **Sachithra** | Project Coordinator & Report Integration Lead | Introduction (10), Dataset Description (10), RQs 1–3 (12) | RQs 1–3 (6 charts — Temporal & Trend Patterns) | 32 |
 | **Kavindu** | EDA Strategy Lead & Visual QA Lead | Introduction to EDA (15), RQs 7–10 (16), Conclusion & IEEE Refs (5) | RQs 7–10 (8 charts — Spatial, Location & Operational) | 36 |
 
-Full task checklists, remote execution timeline, and marking rubric checklist are in [docs/Group_Work_Plan.md](docs/Group_Work_Plan.md).
+Full task checklists, remote execution timeline, and marking rubric checklist are in [docs/Group_Work_Plan.md](docs/Group_Work_Plan.md).  
+**Start Here (Domain Onboarding):** Read [docs/Dataset_Domain_Brief.md](docs/Dataset_Domain_Brief.md) first for full Montgomery County policing context, FBI NIBRS rules, 30-column data dictionary, and real data-quality traps.
 
 ---
 
