@@ -88,15 +88,15 @@
 
 ---
 
-## 4. Remote Execution Timeline (5 Phases)
+## 4. Remote Execution Timeline (Extended Deadline: Friday, 27 Nov 2026, 23:59)
 
-| Phase | Target Timing | Key Activities | Deliverable / Exit Gate |
+| Phase | Calendar Date | Key Activities | Deliverable / Exit Gate |
 | :--- | :--- | :--- | :--- |
-| **Phase 1: Kickoff & Alignment** | **Day 1** *(60-min video call)* | • Agree on Problem Statement, Scope, and all **10 RQs**<br>• Set up GitHub/Drive + shared Word Online/Google Doc<br>• Sachithra emails module leader for group approval | Approved 10 RQs list & shared workspace live |
-| **Phase 2: Data Freeze & Early Drafting** | **Days 2–3** | • **Thisara:** Audits & cleans dataset, creates `cleaned_crime_data.parquet` + `viz_style.py`<br>• **Sachithra:** Drafts Intro, Workflow Diagram & Dataset Description<br>• **Kavindu:** Drafts EDA Theory, Chart Technique Comparisons & collects IEEE sources | **DATA FREEZE** (20-min sync at end of Day 3 — no one edits raw data separately after this) |
-| **Phase 3: Parallel Analysis & Visuals** | **Days 4–6** | • All 3 work independently on their assigned RQs using the frozen dataset:<br>  - Sachithra: RQs 1–3 (6 charts)<br>  - Thisara: Descriptive Stats + RQs 4–6 (6 charts)<br>  - Kavindu: RQs 7–10 (8 charts)<br>• Daily 5-min async check-in on WhatsApp/Discord (*Done / Next / Blocked*) | All 20 PNG figures (300 DPI) + interpretations uploaded to shared folder |
-| **Phase 4: Integration & Cross-Review** | **Days 7–8** | • Paste all sections & figures into Kingston report template<br>• Sachithra & Thisara send conclusion bullets to Kavindu<br>• Kavindu writes Conclusion & formats IEEE References<br>• **Peer-Review Swap:** Sachithra → Thisara → Kavindu → Sachithra | Complete draft inside 4,000–5,000 words with unified tone & style |
-| **Phase 5: Final QA & Submission** | **Day 9** | • Kavindu completes 20-chart QA & IEEE citation check<br>• Sachithra uploads draft to Canvas to inspect **Originality Report**<br>• Fix any similarity/formatting issues, export **PDF**, and submit | Final PDF submitted on Canvas before deadline |
+| **Phase 1: Kickoff & Alignment** | **Sun, 22 Nov** *(Today)* | • **Done:** Dataset Domain Brief + raw `.csv.gz` pushed to GitHub<br>• Agree on Problem Statement, Scope & all **10 RQs** (60-min call)<br>• All 3 clone repo & verify `.venv`; Sachithra emails module leader for approval | Approved 10 RQs list & all 3 local environments verified |
+| **Phase 2: Data Freeze & Early Drafting** | **Mon, 23 Nov** *(Data Freeze)* | • **Thisara:** Completes Python data quality audit & pushes frozen `cleaned_crime_data.parquet` to GitHub by Mon evening<br>• **Sachithra:** Drafts Introduction, Workflow Diagram & Dataset Description<br>• **Kavindu:** Drafts Introduction to EDA, Chart Comparisons & collects IEEE sources | **DATA FREEZE (Mon 23 Nov evening)** — no one edits raw data separately after this |
+| **Phase 3: Parallel Analysis & Visuals** | **Tue 24 – Wed 25 Nov** | • All 3 work independently on their assigned RQs using the frozen dataset:<br>  - Sachithra: RQs 1–3 (6 charts)<br>  - Thisara: Descriptive Stats (Tue) + RQs 4–6 (6 charts)<br>  - Kavindu: RQs 7–10 (8 charts)<br>• Daily evening sync on WhatsApp/Discord (*Done / Next / Blocked*) | All **20 PNG figures (300 DPI)** + interpretations pushed to GitHub by Wed night |
+| **Phase 4: Integration & Cross-Review** | **Thu, 26 Nov** | • Paste all sections & 20 figures into Kingston report template<br>• Sachithra & Thisara send conclusion bullets to Kavindu<br>• Kavindu writes Conclusion, Limitations, IEEE References & GAI Declaration<br>• **Peer-Review Swap:** Sachithra → Thisara → Kavindu → Sachithra | Complete draft inside **4,000–5,000 words** with unified tone & style |
+| **Phase 5: Final QA & Submission** | **Fri, 27 Nov** *(Deadline 23:59)* | • Kavindu completes 20-chart QA & IEEE citation check (morning)<br>• Sachithra uploads draft to Canvas to inspect **Originality Report** (afternoon)<br>• Fix any similarity/formatting issues, export **PDF**, and submit before 23:59 | **Final PDF submitted on Canvas before 27 Nov 23:59** |
 
 ---
 

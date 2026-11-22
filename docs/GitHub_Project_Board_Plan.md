@@ -1,7 +1,8 @@
 # GitHub Project Board Plan — Group 17 (`ADP-CW01-Group-17`)
 
 **GitHub Project URL:** https://github.com/users/mktpriyamal/projects/2/views/1  
-**Linked Repository:** https://github.com/mktpriyamal/ADP-CW01-Group-17
+**Linked Repository:** https://github.com/mktpriyamal/ADP-CW01-Group-17  
+**Extended Submission Deadline:** **Friday, 27 November 2026 at 23:59** *(All 19 issues have Start & Target dates set for the 22–27 Nov sprint)*
 
 ---
 
