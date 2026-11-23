@@ -1,0 +1,58 @@
+﻿offense_group,offense_code,offense_description,crime_against
+Group A,200,Arson,Property
+Group A,13A,Aggravated Assault,Person
+Group A,13B,Simple Assault,Person
+Group A,13C,Intimidation,Person
+Group A,510,Bribery,Property
+Group A,220,Burglary/Breaking & Entering,Property
+Group A,250,Counterfeiting/Forgery,Property
+Group A,290,Destruction/Damage/Vandalism of Property,Property
+Group A,35A,Drug/Narcotic Violations,Society
+Group A,35B,Drug Equipment Violations,Society
+Group A,270,Embezzlement,Property
+Group A,210,Extortion/Blackmail,Property
+Group A,26A,False Pretenses/Swindle/Confidence Game,Property
+Group A,26B,Credit Card/Automated Teller Machine Fraud,Property
+Group A,26C,Impersonation,Property
+Group A,26D,Welfare Fraud,Property
+Group A,26E,Wire Fraud,Property
+Group A,39A,Betting/Wagering,Society
+Group A,39B,Operating/Promoting/Assisting Gambling,Society
+Group A,39C,Gambling Equipment Violations,Society
+Group A,39D,Sports Tampering,Society
+Group A,09A,Murder & Nonnegligent Manslaughter,Person
+Group A,09B,Negligent Manslaughter,Person
+Group A,09C,Justifiable Homicide,Person/Not a Crime
+Group A,100,Kidnapping/Abduction,Person
+Group A,23A,Pocket-picking,Property
+Group A,23B,Purse-snatching,Property
+Group A,23C,Shoplifting,Property
+Group A,23D,Theft From Building,Property
+Group A,23E,Theft From Coin-Operated Machine or Device,Property
+Group A,23F,Theft From Motor Vehicle,Property
+Group A,23G,Theft of Motor Vehicle Parts or Accessories,Property
+Group A,23H,All Other Larceny,Property
+Group A,240,Motor Vehicle Theft,Property
+Group A,370,Pornography/Obscene Material,Society
+Group A,40A,Prostitution,Society
+Group A,40B,Assisting or Promoting Prostitution,Society
+Group A,120,Robbery,Property
+Group A,11A,Forcible Rape,Person
+Group A,11B,Forcible Sodomy,Person
+Group A,11C,Sexual Assault With An Object,Person
+Group A,11D,Forcible Fondling,Person
+Group A,36A,Incest,Person
+Group A,36B,Statutory Rape,Person
+Group A,280,Stolen Property Offenses,Property
+Group A,520,Weapon Law Violations,Society
+Group B,90A,Bad Checks,Property
+Group B,90B,Curfew/Loitering/Vagrancy Violations,Society
+Group B,90C,Disorderly Conduct,Society
+Group B,90D,Driving Under the Influence,Society
+Group B,90E,Drunkenness,Society
+Group B,90F,"Family Offenses, Nonviolent",Society
+Group B,90G,Liquor Law Violations,Society
+Group B,90H,Peeping Tom,Society
+Group B,90I,Runaway,Not a Crime
+Group B,90J,Trespass of Real Property,Society
+Group B,90Z,All Other Offenses,"Person, Property, or Society"

@@ -12,10 +12,8 @@ env/
 */.ipynb_checkpoints/
 
 # Large Uncompressed Datasets (compressed .csv.gz is tracked in data/raw/)
-data/raw/*.csv
+
 data/raw/*.xlsx
-data/processed/*.csv
-*.csv
 !data/raw/dataset_coursework1.csv.gz
 
 # OS & Editor
