@@ -15,6 +15,7 @@ env/
 data/raw/*.xlsx
 data/raw/dataset_coursework1.csv
 !data/raw/dataset_coursework1.csv.gz
+*.csv
 
 # OS & Editor
 .DS_Store
